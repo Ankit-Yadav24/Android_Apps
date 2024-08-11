@@ -8,6 +8,30 @@
     android:layout_margin="25dp"
     tools:context=".MainActivity">
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="285dp"
+        android:layout_height="31dp"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="285dp"
+        android:layout_height="31dp"
+        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="285dp"
+        android:layout_height="31dp"
+        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="359dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="322dp"
@@ -41,7 +65,7 @@
         android:id="@+id/spinner"
         android:layout_width="285dp"
         android:layout_height="31dp"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:ignore="DuplicateIds,MissingConstraints,TouchTargetSizeCheck"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="231dp" />
 
